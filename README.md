@@ -22,8 +22,9 @@ To use the library, include LongLedGraph.h, and instantiate a LongLedGraph objec
 |set_bars(int loc, boolean value) |loc: location of bar to select, value: value to set selected bar |Sets values in output buffer for red segments			    				|
 |set_ybars(int loc, boolean value)|loc: location of bar to select, value: value to set selected bar |Sets values in output buffer for yellow segments			    			|
 |set_bars_cum(int loc)			  |loc: maximum value on bar       								 	|Sets all bars up to a certain value in the output buffer for red segments  |
-|update_bar()					  |Text        													 	|Refreshes single bar display			    								|
-|update_bars()					  |Text        													 	|Refreshes multibar display from buffer			    						|
+|update_bar()					  |        													 	|Refreshes single bar display			    								|
+|update_bars()					  |        													 	|Refreshes multibar display from buffer			    						|
+
 Description of functions in the software library.
 
 ## Examples
